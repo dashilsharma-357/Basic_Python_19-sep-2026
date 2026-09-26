@@ -1,0 +1,17 @@
+u in front of file name means untracked, meaning the file is not saving to git
+use command to load file to git :
+
+send all files:  git add .
+
+# A in front of filename means added, added to git
+
+
+add descriptive label: git commit -m "label"
+
+send file to git: git push origin master/main
+
+send specified files: git add filename file2name
+
+files that are commited and ready to send are called staged files
+
+check status of files: git status
