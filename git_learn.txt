@@ -15,3 +15,10 @@ send specified files: git add filename file2name
 files that are commited and ready to send are called staged files
 
 check status of files: git status
+
+make files untracked from added: git restore --staged .  # replace . with filename to restore specific file
+make committed files untracked: git reset --soft HEAD~1
+make specific committed file untracked: git rm -- cached filename
+learn about your project's branches: git branch
+
+to create new branch: git branch <branch_name>

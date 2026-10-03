@@ -1,1 +1,1 @@
-print("New User egisteration")
+print("New User Registration")
